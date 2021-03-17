@@ -6,7 +6,7 @@ Given a data set of the annual performance of 12 "green" stocks, a VBA code scri
 
 Upon been prompted by a user ***input box*** to enter the value for the year to be reported, a timer was initiated which calculated the process time of **collection**, **storage**, **output**, and **formatting** of the data being recorded on a separate sheet.  A message box was then displayed with the run time of the script.
 
-Code was written to hold each stock's ticker name in an array and then loop through every row of data and output the **ticker name**, **total volume**, and **return** for the year.  Because the script ran through every row of data for each ticker, a total of over *36,000* rows were processed each time the button was clicked.  As a result of refactoring the working code, we were able to achieve the same results by creating three ***output*** arrays which stored the data while the remaining rows were processed.  This resulted in the refactored code running through the rows of data one time for a total of just over ***3,000*** rows.
+A VBA Subroutine, or *Macro*, was written to hold each stock's ticker name in an array and then loop through every row of data and output the **ticker name**, **total volume**, and **return** for the year.  Because the script ran through every row of data for each ticker, a total of over *36,000* rows were processed each time the button was clicked.  As a result of refactoring the working code, we were able to achieve the same results by creating three ***output*** arrays which stored the data while the remaining rows were processed.  This resulted in the refactored code running through the rows of data one time for a total of just over ***3,000*** rows.
 
 ## Results
 
