@@ -9,8 +9,7 @@ Upon been prompted by a user ***input box*** to enter the value for the year to 
 A VBA Subroutine, or *Macro*, was written to hold each stock's ticker name in an array and then loop through every row of data and output the **ticker name**, **total volume**, and **return** for the year.  Because the script ran through every row of data for each ticker, a total of over *36,000* rows were processed each time the button was clicked.  As a result of refactoring the working code, we were able to achieve the same results by creating three ***output*** arrays which stored the data while the remaining rows were processed.  This resulted in the refactored code running through the rows of data one time for a total of just over ***3,000*** rows.
 
 ## Results
-
-### By comparing the run times between the original code and the refactored code we can measure the improvements in processing speed of the subroutine script used to process the data.  As seen in the images below it's clear that the refactored code ran ***almost 6 times quicker*** than the original script. 
+#### By comparing the run times between the original code and the refactored code we can measure the improvements in processing speed of the subroutine script used to process the data.  As seen in the images below it's clear that the refactored code ran ***almost 6 times quicker*** than the original script. 
 
 The factors that contribute to this increase in time are the number of tickers and the overall number of rows of data.  This is because of the nature of the nested loops used in the original code.  To quote Colin Bartoe, a fellow classmate in this cohort:  *"You will be much more efficient if you have to run an obstacle course 1 time with a couple things to do at each station than to run the whole obstacle course for each obstacle, then do it again for the next one."*
 
