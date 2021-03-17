@@ -10,7 +10,9 @@ A VBA Subroutine, or *Macro*, was written to hold each stock's ticker name in an
 
 ## Results
 
-### By comparing the run times between the original code and the refactored code we can measure the improvements in processing speed of the subroutine script used to process the data.  As seen in the images below it is clear that the refactored code ran ***almost 6 times quicker*** than the original script.  
+### By comparing the run times between the original code and the refactored code we can measure the improvements in processing speed of the subroutine script used to process the data.  As seen in the images below it's clear that the refactored code ran ***almost 6 times quicker*** than the original script. 
+
+The factors that contribute to this increase in time are the number of tickers and the overall number of rows of data.  This is because of the nature of the nested loops used in the original code.  To quote Colin Bartoe, a fellow classmate in this cohort:  *"You will be much more efficient if you have to run an obstacle course 1 time with a couple things to do at each station than to run the whole obstacle course for each obstacle, then do it again for the next one."*
 
 
 ***2017 Analysis run with original code script and with all data being reviewed for each unique ticker (over 36,000 rows)***
