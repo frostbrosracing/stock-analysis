@@ -8,19 +8,17 @@ Upon been prompted by a user ***input box*** to enter the value for the year to 
 
 Code was written to hold each stock's ticker name in an array and then loop through every row of data and output the **ticker name**, **total volume**, and **return** for the year.  Because the script ran through every row of data for each ticker, a total of over *36,000* rows were processed each time the button was clicked.  As a result of refactoring the working code, we were able to achieve the same results by creating three ***output*** arrays which stored the data while the remaining rows were processed.  This resulted in the refactored code running through the rows of data one time for a total of just over ***3,000*** rows.
 
-##
-
-There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script (3 pt).
-
-Structure, Organization, and Formatting Requirements (8 points)
-The written analysis contains the following structure, organization, and formatting:
-
-There is a title, and there are multiple paragraphs (2 pt).
-Each paragraph has a heading (2 pt).
-There are subheadings to break up text (2 pt).
-Links are working, and images are formatted and displayed where appropriate (2 pt).
+## Results
 
 
+## Summary
+#### Advantages and Disadvantages of Refactoring Code
+Refactoring code can offer a variety of advantages.  The resources needed to process lines of code are the memory and processing speed of the computer running that code.  The ability of a computer to process code quickly and efficiently is based on a number of factors including, but not limited to:  total amount of data being read, the number of process being run over the range of that data, additional programs running concurrently, and the amount of memory available.  Because of the finite resources available within the computing power of a machine, it can be a benefit to find ways to simplify the code being run.  Because future users of code may also need to make changes, writing comments within the code is also important.  These future users may not think the same way as the original author of the code, so writing code logically is equally important.  
+
+Depending on the circumstances, a particular subroutine of code may not be used very often.  In this instance it might not be beneficial to work exhaustively through the code in order to tweak its efficiency or readability.  "If it works, it works."  
+
+#### Advantages and Disadvantages of the Original and Refactored VBA Script Used in This Analysis
+The sample size of data in this analysis was very limited.  It was over a very few number of stocks and over a relatively short period of time.  Because of this, the resulting delta in processing time was negligible as seen in the screenshots below.  However; because it's clear from the images that the run time for the code prior to refactoring code was ***almost 6 times longer*** than after the refactor, it can clearly be seen that over a larger data set the overall processing time could be much more significant than just fractions of a second.  Specific to applications of data analysis like the stock market, split second decisions need to be made and the processing speed of a subroutine can be a significant benefit or detriment to the user of that code.
 
 
 
