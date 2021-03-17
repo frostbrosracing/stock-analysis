@@ -1,7 +1,7 @@
-# A ***Brief*** Analysis of the Benefit or Disadvantage of Refactoring Code
+# A ***Brief*** Analysis of the Benefit and Disadvantage of Refactoring VBA Code
 
 ## Overview of Project
-The purpose and background are well defined (2 pt).
+
 #### The purpose of this project was to determine what the benefit or disadvantage might be of refactoring working VBA code.  
 Given a data set of the annual performance of 12 "green" stocks, a VBA code script was written in which over 3,000 rows of data were able to be calculated and summarized according to each stock's ticker at the click of a button.  
 
