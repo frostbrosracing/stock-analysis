@@ -20,6 +20,8 @@ Depending on the circumstances, a particular subroutine of code may not be used 
 #### Advantages and Disadvantages of the Original and Refactored VBA Script Used in This Analysis
 The sample size of data in this analysis was very limited.  It was over a very few number of stocks and over a relatively short period of time.  Because of this, the resulting delta in processing time was negligible as seen in the screenshots below.  However; because it's clear from the images that the run time for the code prior to refactoring code was ***almost 6 times longer*** than after the refactor, it can clearly be seen that over a larger data set the overall processing time could be much more significant than just fractions of a second.  Specific to applications of data analysis like the stock market, split second decisions need to be made and the processing speed of a subroutine can be a significant benefit or detriment to the user of that code.
 
+Depending on the size of data to be processed by a code and the frequency in which it will be run, perhaps it doesn't offer enough benefit to sift exhaustively through that code just to save a fraction of a second.  For code that is relatively few lines in length refactoring may not be beneficial overall, but for code that contains many lines refactoring may in fact prove to be quite beneficial.
+
 
 
 
