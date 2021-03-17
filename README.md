@@ -17,6 +17,8 @@ A VBA Subroutine, or *Macro*, was written to hold each stock's ticker name in an
 ***2017 Analysis and with each ticker being summarized as all the data was processed one time (just over 3,000 rows)***
 ![VBA_Challenge_2017.png](https://github.com/frostbrosracing/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
+![VBA_Challenge_2017.png](https://github.com/frostbrosracing/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
+
 
 ***2018 Analysis and with all data being reviewed for each unique ticker (over 36,000 rows)***
 ![2018_analysis.png](https://github.com/frostbrosracing/stock-analysis/blob/main/Resources/2018_analysis.png)
